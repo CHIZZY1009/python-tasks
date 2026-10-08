@@ -1,0 +1,10 @@
+def factor_of(number):
+    count  = 0
+    for i in range(1,number+1):
+            if number % i == 0:
+                count += 1
+    return count
+
+
+
+print(factor_of(10))
